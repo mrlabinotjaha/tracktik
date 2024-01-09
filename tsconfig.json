@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "include": [
+    "src/**/*.ts", // Includes all TypeScript files in the src directory
+    "src/services/*" // Specifically includes files in the src/services directory
+  ],
+  // ... other configurations
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}
